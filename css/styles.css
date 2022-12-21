@@ -45,13 +45,10 @@ footer {
   /* flex-wrap: wrap; */
 }
 
-/* ================================== */
-/* Layout page CSS */
-/* ================================== */
+
 
 .tile {
-  /* TODO: MODULE_CARDS */
-  /* 1. Fill in the required properties. */
+ 
   
   height:25rem;
   position:relative;
@@ -59,9 +56,6 @@ footer {
   overflow: hidden;
 }
 .tile img {
-  /* TODO: MODULE_CARDS */
-  /* 1. Fill in the required properties. */
-  
   position : relative;
   width:100%;
   height:100%;
@@ -70,15 +64,11 @@ footer {
   transition: all 0.2s;
 }
 .tile img:hover {
-  /* TODO: MODULE_CARDS */
-  /* 1. Fill in the required properties. */
   filter: brightness(50%);
   transform: scale(102%);
   
 }
 
-/* Hint: Notice the position:absolute and z-index properties. */
-/* Think about how those in relation to the existing "tile" classes. */
 .tile-text {
   z-index: 1;
   text-transform: uppercase;
@@ -89,14 +79,10 @@ footer {
 }
 
 .hero-image {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* TODO: MODULE_LAYOUT */
-  /* 1. Set a specific height. */
-  /* 2. Position and center the image to scale nicely on all screens. */
  height: 50vh;
 }
 .hero-heading{
@@ -122,40 +108,24 @@ footer {
   margin-right: 36px;
 }
 
-/* ================================== */
-/* Adventures grid page CSS */
-/* ================================== */
-
 .adventure-card {
-  /* TODO: MODULE_ADVENTURES_GRID */
-  /* 1. Fill in the required properties. */
   position:relative;
   height:30rem;
   
 }
 .adventure-card img {
-  /* TODO: MODULE_ADVENTURES_GRID */
-  /* 1. Fill in the required properties. */
   width:100%;
   height:85%;
   position:relative;
   transition: all 0.5s ease;
 }
 .adventure-card img:hover {
-  /* TODO: MODULE_ADVENTURES_GRID */
-  /* 1. Fill in the required properties. */
   filter:brightness(70%);
 }
 
-/* ================================== */
-/* Adventure details page CSS */
-/* ================================== */
 
 .adventure-detail-card {
-  /* TODO: MODULE_ADVENTURE_DETAILS */
-  /* 1. Fill in the required properties. */
   font-family: 'Courier New', Courier, monospace;
-  
   
 }
 
@@ -172,8 +142,6 @@ footer {
 }
 
 .adventure-card-image {
-  /* TODO: MODULE_ADVENTURE_DETAILS */
-  /* 1. Fill in the required properties. */
   transition: all 0.5s ease;
   border-radius: 5px;
   height: 100%;
@@ -182,8 +150,6 @@ footer {
   position:relative;
 }
 .adventure-card-image:hover {
-  /* TODO: MODULE_ADVENTURE_DETAILS */
-  /* 1. Fill in the required properties. */
   filter:brightness(50%);
 }
 .experience-content ul li {
